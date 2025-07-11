@@ -37,12 +37,12 @@ fetch('itinerario_ritual.geojson')
           color: '#000',
           weight: 1,
           fillOpacity: 0.9
-        }).bindPopup(`<strong>${feature.properties.name}</strong><br>${feature.properties.description}`);
+        }).bindPopup(`<strong>${feature.properties.name}</strong><br>${feature.properties.description || ''}`);
       }
     }).addTo(map);
   });
 
-// Cargar GeoJSON del Ritualkreis
+// Cargar GeoJSON del Ritualkreis (círculo externo)
 fetch('ritualkreis_oberstdorf.geojson')
   .then(response => response.json())
   .then(data => {
@@ -58,7 +58,28 @@ fetch('ritualkreis_oberstdorf.geojson')
           color: '#000',
           weight: 1,
           fillOpacity: 0.9
-        }).bindPopup(`<strong>${feature.properties.name}</strong><br>${feature.properties.description}`);
+        }).bindPopup(`<strong>${feature.properties.name}</strong><br>${feature.properties.description || ''}`);
+      }
+    }).addTo(map);
+  });
+
+// Cargar GeoJSON del ritualpfad interno
+fetch('ritualpfad.geojson')
+  .then(response => response.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: feature => ({
+        color: feature.properties.stroke || '#00CC66',
+        weight: feature.properties['stroke-width'] || 3
+      }),
+      pointToLayer: (feature, latlng) => {
+        return L.circleMarker(latlng, {
+          radius: 6,
+          fillColor: feature.properties['marker-color'] || '#00CC66',
+          color: '#000',
+          weight: 1,
+          fillOpacity: 0.9
+        }).bindPopup(`<strong>${feature.properties.name}</strong><br>${feature.properties.description || ''}`);
       }
     }).addTo(map);
   });
