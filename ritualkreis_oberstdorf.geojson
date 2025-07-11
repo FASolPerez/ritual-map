@@ -4,21 +4,22 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ritualkreis Oberstdorf",
-        "description": "Ruta circular de regeneración espiritual en los Allgäuer Alpen",
-        "stroke": "#8844FF",
+        "name": "Ritualkreis Oberstdorf v2",
+        "description": "Versión ajustada de la ruta circular, permitiendo tramos altos en Austria sin bajar a núcleos.",
+        "stroke": "#9966FF",
         "stroke-width": 4
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [10.2791, 47.4056],
-          [10.3921, 47.4378],
-          [10.4525, 47.4910],
-          [10.5067, 47.5170],
-          [10.5164, 47.4934],
-          [10.5125, 47.5110],
-          [10.4370, 47.5090],
+          [10.3255, 47.3880],
+          [10.3762, 47.3443],
+          [10.4301, 47.3350],
+          [10.4902, 47.3601],
+          [10.5051, 47.3855],
+          [10.4885, 47.4092],
+          [10.4375, 47.4363],
           [10.3663, 47.4218],
           [10.2791, 47.4056]
         ]
@@ -27,35 +28,35 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Prinzenkreuz",
-        "description": "Cruce simbólico. Aquí empieza el círculo interior.",
-        "marker-color": "#5555FF",
-        "marker-symbol": "cross"
+        "name": "Kemptner Hütte",
+        "description": "Puerta sur del ascenso ritual. Punto de inflexión entre bosques y piedra.",
+        "marker-color": "#4444FF",
+        "marker-symbol": "camp"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [10.4525, 47.4910]
+        "coordinates": [10.3762, 47.3443]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Vilsalpsee",
-        "description": "Lago alto: agua, espejo y amanecer.",
-        "marker-color": "#00AACC",
-        "marker-symbol": "water"
+        "name": "Landsberger Hütte",
+        "description": "Refugio alto. Punto de descanso en la cima espiritual del bucle.",
+        "marker-color": "#2288CC",
+        "marker-symbol": "lodging"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [10.5067, 47.5170]
+        "coordinates": [10.5051, 47.3855]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Höfatsblick",
-        "description": "La cuerda de retorno. Aquí desciende el alma.",
-        "marker-color": "#AA0000",
+        "name": "Edmund-Probst-Haus",
+        "description": "Altura de retorno. Mirada final antes de descender al mundo.",
+        "marker-color": "#AA2255",
         "marker-symbol": "peak"
       },
       "geometry": {
