@@ -17,12 +17,11 @@ const openRail = L.tileLayer('https://tiles.openrailwaymap.org/standard/{z}/{x}/
   opacity: 0.7
 });
 
-// Capa alternativa (tonos oscuros)
 const baseDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '© CartoDB Dark Matter'
 });
 
-// Cargar GeoJSON del itinerario
+// Cargar GeoJSON del itinerario ferroviario
 fetch('itinerario_ritual.geojson')
   .then(response => response.json())
   .then(data => {
@@ -35,6 +34,27 @@ fetch('itinerario_ritual.geojson')
         return L.circleMarker(latlng, {
           radius: 6,
           fillColor: feature.properties['marker-color'] || '#00FF66',
+          color: '#000',
+          weight: 1,
+          fillOpacity: 0.9
+        }).bindPopup(`<strong>${feature.properties.name}</strong><br>${feature.properties.description}`);
+      }
+    }).addTo(map);
+  });
+
+// Cargar GeoJSON del Ritualkreis
+fetch('ritualkreis_oberstdorf.geojson')
+  .then(response => response.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: feature => ({
+        color: feature.properties.stroke || '#8844FF',
+        weight: feature.properties['stroke-width'] || 3
+      }),
+      pointToLayer: (feature, latlng) => {
+        return L.circleMarker(latlng, {
+          radius: 6,
+          fillColor: feature.properties['marker-color'] || '#8844FF',
           color: '#000',
           weight: 1,
           fillOpacity: 0.9
