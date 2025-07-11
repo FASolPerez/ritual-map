@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ritual Railway Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Leaflet core -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  
+  <!-- Layer control plugin -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-expanded@1.1.2/dist/leaflet-control-layers-expanded.min.css">
+  <script src="https://unpkg.com/leaflet-control-layers-expanded@1.1.2/dist/leaflet-control-layers-expanded.min.js"></script>
+  
+  <!-- Custom style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- GPX download button -->
+  <div id="gpx-download">
+    <a href="data/ritual-tracks.gpx" download>📥 Download GPX</a>
+  </div>
+
+  <!-- Main map script -->
+  <script src="map.js"></script>
+</body>
+</html>
