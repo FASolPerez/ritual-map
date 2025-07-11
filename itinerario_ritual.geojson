@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Día 1: El Umbral del Norte",
+        "description": "De La Haya a Siegen, cruzando el Rin y los bosques del Sauerland.",
+        "stroke": "#0077FF",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.3007, 52.0705],
+          [5.8664, 51.8420],
+          [6.1376, 51.7884],
+          [6.4561, 51.6580],
+          [6.6204, 51.6550],
+          [7.1498, 51.2562],
+          [7.2003, 51.1788],
+          [7.6757, 51.2956],
+          [8.0208, 50.8748]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Día 2: La Curva Negra",
+        "description": "Del Lahn al Schwarzwald. El tren serpentea entre castillos, lagos y el tiempo.",
+        "stroke": "#00CC66",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.0208, 50.8748],
+          [7.8836, 50.7923],
+          [8.0737, 50.3851],
+          [8.0121, 50.3763],
+          [7.8028, 50.3156],
+          [7.5886, 50.3530],
+          [7.5885, 50.2302],
+          [8.1505, 47.5550],
+          [8.2037, 47.8153]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Día 3: El Pasaje Interior",
+        "description": "Última ascensión a Oberstdorf, entre castillos suabos y lagos glaciares.",
+        "stroke": "#FF3344",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.2037, 47.8153],
+          [8.4980, 47.9507],
+          [8.8157, 47.9846],
+          [9.2215, 48.0884],
+          [9.5026, 48.0157],
+          [10.4817, 47.7260],
+          [10.2791, 47.4056]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xanten",
+        "description": "Ruinas romanas entre brumas del Rin. Primer eco del viaje.",
+        "marker-color": "#0055FF",
+        "marker-symbol": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.4561, 51.6580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boppard",
+        "description": "Curva del Rin. Lugar ideal para porrito con mirador.",
+        "marker-color": "#00AA55",
+        "marker-symbol": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.5885, 50.2302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schluchsee",
+        "description": "Lago alto, bosque profundo. Noche de aguas negras y estrellas suaves.",
+        "marker-color": "#000000",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.2037, 47.8153]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oberstdorf",
+        "description": "Fin de la línea. Comienzo del silencio. Puerta de los Allgäuer Hochalpen.",
+        "marker-color": "#CC0000",
+        "marker-symbol": "mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2791, 47.4056]
+      }
+    }
+  ]
+}

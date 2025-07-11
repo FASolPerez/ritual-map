@@ -1,0 +1,38 @@
+/* Estilo general */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #00FF66;
+  font-family: monospace;
+  height: 100%;
+}
+
+/* Mapa ocupa pantalla completa */
+#map {
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+/* Botón de descarga GPX */
+#gpx-download {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #000;
+  border: 1px solid #00FF66;
+  padding: 8px 12px;
+  border-radius: 6px;
+  z-index: 999;
+}
+
+#gpx-download a {
+  color: #00FF66;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#gpx-download a:hover {
+  text-shadow: 0 0 5px #00FF66;
+}
