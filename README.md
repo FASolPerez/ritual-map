@@ -1,6 +1,6 @@
 # 🌍 Ritual Railway Map
 Eisenbahn-Einführungskarte: Den Haag → Oberstdorf. Symbolische und poetische Routen.
-#Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+#Creative Commons Attribution 3.0 Unported License
 
 # 🌍 Ritual Railway Map
 
@@ -13,7 +13,7 @@ Dieses Repository enthält die interaktive Karte der **Rituellen Zugreise**:
 - Integriert in fernandoalbertosolperez.com (CLI-Bereich: `> GOTO ritualmap`)
 
 🧠 Urheber: Fernando Alberto Sol Pérez  
-🎴 Lizenz: Creative Commons BY-NC-SA 4.0  
+🎴 Lizenz: Creative Commons Attribution 3.0 Unported License  
 🚂 #RailwayRitual #SchamaneDerSchienen #PoetischeReise
 
 # 🌍 Ritual Railway Map(English version)
@@ -41,8 +41,10 @@ Fernando Alberto Sol Pérez
 
 ## 🎴 License
 
-This project is licensed under the **Creative Commons BY-NC-SA 4.0**  
-[View license](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+This project is licensed under the Creative Commons Attribution 3.0 Unported License
+Full license text: https://creativecommons.org/licenses/by/3.0/
+
+© 2025 Fernando Alberto Sol Pérez
 
 ---
 
