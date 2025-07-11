@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ritualkreis Oberstdorf",
+        "description": "Ruta circular de regeneración espiritual en los Allgäuer Alpen",
+        "stroke": "#8844FF",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.2791, 47.4056],
+          [10.3921, 47.4378],
+          [10.4525, 47.4910],
+          [10.5067, 47.5170],
+          [10.5164, 47.4934],
+          [10.5125, 47.5110],
+          [10.4370, 47.5090],
+          [10.3663, 47.4218],
+          [10.2791, 47.4056]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prinzenkreuz",
+        "description": "Cruce simbólico. Aquí empieza el círculo interior.",
+        "marker-color": "#5555FF",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.4525, 47.4910]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vilsalpsee",
+        "description": "Lago alto: agua, espejo y amanecer.",
+        "marker-color": "#00AACC",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.5067, 47.5170]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Höfatsblick",
+        "description": "La cuerda de retorno. Aquí desciende el alma.",
+        "marker-color": "#AA0000",
+        "marker-symbol": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.3663, 47.4218]
+      }
+    }
+  ]
+}
