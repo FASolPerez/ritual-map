@@ -4,23 +4,22 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ritualkreis Oberstdorf v2",
-        "description": "Versión ajustada de la ruta circular, permitiendo tramos altos en Austria sin bajar a núcleos.",
-        "stroke": "#9966FF",
+        "name": "Ritualkreis Oberstdorf – Alemania",
+        "description": "Ruta cerrada estrictamente en territorio alemán. Versión limpia sin pisar Austria.",
+        "stroke": "#8844FF",
         "stroke-width": 4
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [10.2791, 47.4056],
-          [10.3255, 47.3880],
-          [10.3762, 47.3443],
-          [10.4301, 47.3350],
-          [10.4902, 47.3601],
-          [10.5051, 47.3855],
-          [10.4885, 47.4092],
-          [10.4375, 47.4363],
-          [10.3663, 47.4218],
+          [10.3032, 47.3914],
+          [10.3534, 47.3506],
+          [10.3720, 47.3685],
+          [10.3891, 47.3870],
+          [10.3748, 47.4077],
+          [10.3422, 47.4266],
+          [10.3165, 47.4250],
           [10.2791, 47.4056]
         ]
       }
@@ -28,40 +27,27 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kemptner Hütte",
-        "description": "Puerta sur del ascenso ritual. Punto de inflexión entre bosques y piedra.",
-        "marker-color": "#4444FF",
-        "marker-symbol": "camp"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.3762, 47.3443]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Landsberger Hütte",
-        "description": "Refugio alto. Punto de descanso en la cima espiritual del bucle.",
-        "marker-color": "#2288CC",
-        "marker-symbol": "lodging"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [10.5051, 47.3855]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Edmund-Probst-Haus",
-        "description": "Altura de retorno. Mirada final antes de descender al mundo.",
-        "marker-color": "#AA2255",
+        "description": "Punto alto ritual. Vista hacia el abismo sin cruzarlo.",
+        "marker-color": "#AA2277",
         "marker-symbol": "peak"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [10.3663, 47.4218]
+        "coordinates": [10.3422, 47.4266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spielmannsau",
+        "description": "Inicio en el bosque profundo del Stillachtal.",
+        "marker-color": "#3366CC",
+        "marker-symbol": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.3032, 47.3914]
       }
     }
   ]
