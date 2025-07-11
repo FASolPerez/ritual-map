@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nodo 0 — Oberstdorf (Umbral de salida)",
+        "description": "Inicio mundano, plaza, tren, ruido. Ritual: despojo / dejar algo atrás.",
+        "marker-color": "#800080",
+        "marker-symbol": "circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2791, 47.4056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tramo 1 — Oberstdorf → Christlessee",
+        "stroke": "#1E90FF",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.2791, 47.4056],
+          [10.3017, 47.3934]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tramo 2 — Christlessee → Spielmannsau",
+        "stroke": "#228B22",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3017, 47.3934],
+          [10.3176, 47.3679]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tramo 3 — Spielmannsau → Alpe Oberau",
+        "stroke": "#FFA500",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3176, 47.3679],
+          [10.3546, 47.3670]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tramo 4 — Alpe Oberau → Edmund-Probst-Haus",
+        "stroke": "#FF6347",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3546, 47.3670],
+          [10.3315, 47.3992]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nodo solar — Edmund-Probst-Haus",
+        "description": "Tramo alto. Ritual: contemplación de 33 minutos. Aquí se enciende el propósito.",
+        "marker-color": "#FFD700",
+        "marker-symbol": "star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.3315, 47.3992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tramo 5 — Edmund-Probst → Unterer Gaisalpsee",
+        "stroke": "#00CED1",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3315, 47.3992],
+          [10.3095, 47.4120]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tramo 6 — Gaisalpsee → Rubi",
+        "stroke": "#A0522D",
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.3095, 47.4120],
+          [10.2647, 47.4217]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nodo final — Rubi (Testigo ciego)",
+        "description": "Fin simbólico del trayecto. Ritual: cruzar sin mirar atrás.",
+        "marker-color": "#000000",
+        "marker-symbol": "square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2647, 47.4217]
+      }
+    }
+  ]
+}
