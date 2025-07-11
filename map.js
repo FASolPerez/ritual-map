@@ -23,7 +23,7 @@ const baseDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}
 });
 
 // Cargar GeoJSON del itinerario
-fetch('data/itinerario_ritual.geojson')
+fetch('itinerario_ritual.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
